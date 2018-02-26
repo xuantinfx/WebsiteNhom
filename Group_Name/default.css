@@ -1,3 +1,64 @@
+/*Phần này cho tất cả*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
 /*Phần này của default.html*/
 
 /*Phần này của member*/
+#div-hinh-dai-dien{
+    float: left;
+    width: 40vw;
+}
+#hinh-dai-dien{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div-thong-tin-ca-nhan{
+    margin-top:20vh;
+    width: 58vw;
+    float: right;
+}
+#div-quay-lai-trang-chu{
+    float: right;
+    margin-right: 5vw;
+}
+a{
+    color: rgb(63,145,255);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(63,145,255);
+    text-decoration: none;
+    font-weight: bold;
+}
+h1{
+    color: rgb(63,145,255);
+    font-size: 5em;
+    margin-bottom: 5vh;
+}
+
+.tieu-de{
+    width: 20vw;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    color: white;
+    background-color: rgb(63,145,255);
+}
+
+.noi-dung{
+    padding-left: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+tr{
+    margin-bottom: 1em;
+}
