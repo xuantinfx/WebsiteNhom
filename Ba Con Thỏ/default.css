@@ -6,6 +6,57 @@
 }
 
 /*Phần này của default.html*/
+*{
+    box-sizing: border-box;
+}
+
+#logo img{
+    height: 100px;
+    width: 200px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#thongTinNhom {
+    background: rgb(63,145,255);
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+#hinhNhom {
+    width: 50%;
+    height: auto;
+    float:left;
+    
+}
+
+#hinhNhom img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    float: left;
+    margin: 20px;
+}
+
+#thongTinChiTiet {
+    float: right;
+    text-align: left;
+    padding-top: 100px;
+    width: 50%;   
+}
+
+h1.tenThanhVien {
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    clear: both;
+}
 
 /*Phần này của member*/
 #div-hinh-dai-dien{
