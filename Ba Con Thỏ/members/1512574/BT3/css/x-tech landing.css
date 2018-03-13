@@ -1,0 +1,317 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  background-color: rgb(247, 247, 247);
+}
+
+body {
+}
+
+/***************** Header *****************/
+
+#header {
+  padding-top: 20px;
+}
+/****** Top Header ******/
+#top-header {
+}
+
+#logo {
+}
+
+#logo > img {
+  width: 60px;
+}
+#logo > h1 {
+  font-size: 30px;
+  color: rgb(186, 186, 186);
+}
+#logo b {
+  color: rgb(101, 101, 101);
+}
+
+#phone {
+}
+#phone > h1 {
+  font-size: 30px;
+  color: rgb(186, 186, 186);
+}
+#phone b {
+  color: rgb(101, 101, 101);
+}
+
+/****** Banner ******/
+#banner {
+}
+
+#banner > h1 {
+  font-size: 30px;
+}
+#banner > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+
+/******* Button Invite First *******/
+#button-invite-first {
+  margin-top: 30px;
+  padding-right: 0;
+}
+#button-invite-first button {
+  border-radius: 40px;
+  padding: 3px 20px;
+  color: rgb(55, 86, 127);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: none;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgb(92, 151, 223)),
+    to(rgb(192, 234, 255))
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgb(19, 85, 199),
+    rgb(192, 234, 255)
+  );
+  background-image: linear-gradient(
+    to top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=rgb(92,151,223), endColorstr=rgb(192,234,255));
+}
+
+#button-invite-first button > p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+#button-invite-first button > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+#button-invite-first > p {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(87, 144, 220);
+}
+#button-invite-first img {
+  width: 120px;
+}
+/************** Content *******************/
+
+/******** List Item ********/
+#content {
+}
+
+#list-item ul {
+}
+
+#list-item li {
+}
+
+#list-item li > img {
+  width: 70px;
+  margin-left: 30px;
+}
+#list-item li > div {
+}
+#list-item li > div > p {
+  font-size: 15px;
+}
+
+/******** quote of ceo ********/
+#quote-of-CEO {
+}
+
+#quote-of-CEO > h3 {
+  font-size: 25px;
+  font-weight: normal;
+  font-style: italic;
+  color: rgb(114, 159, 223);
+}
+#quote-of-CEO > p {
+  background-color: rgb(234, 234, 234);
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(128, 128, 128);
+  text-align: justify;
+  text-justify: newspaper;
+  line-height: 20px;
+}
+#quote-of-CEO > p:last-child {
+  background-color: rgb(242, 242, 242);
+  float: right;
+  border: none;
+  padding: 0px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+/**** Button invite second ****/
+#button-invite-second {
+  margin-top: 30px;
+  padding-right: 0;
+}
+#button-invite-second img {
+  width: 100px;
+  position: relative;
+  top: -35px;
+  margin-top: 20px;
+}
+#button-invite-second > p {
+  margin-right: 20px;
+  line-height: 3;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(87, 144, 220);
+}
+
+#button-invite-second button {
+  border-radius: 40px;
+  padding: 3px 20px;
+  color: rgb(55, 86, 127);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: none;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgb(92, 151, 223)),
+    to(rgb(192, 234, 255))
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgb(19, 85, 199),
+    rgb(192, 234, 255)
+  );
+  background-image: linear-gradient(
+    to top,
+    rgb(92, 151, 223),
+    rgb(192, 234, 255)
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=rgb(92,151,223), endColorstr=rgb(192,234,255));
+}
+#button-invite-second button > p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+#button-invite-second button > h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*************** Footer *******************/
+
+#footer {
+}
+#footer-inf {
+  background-color: rgb(126, 126, 126);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#contact {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#contact > p {
+}
+#map {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#map > img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#design-detail {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#design-detail > p {
+}
+#stay-connected {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+#stay-connected ul {
+}
+#stay-connected img {
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#footer-CA {
+  background-color: rgb(102, 102, 102);
+}
+
+#footer-CA > div {
+}
+#a1 > p {
+  float: left;
+  line-height: 2;
+  padding-left: 20px;
+}
+#a2 > p {
+  line-height: 2;
+  float: right;
+  padding-right: 20px;
+}
